@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Welcome Page </title>
+    <style>
+
+       button {
+       background-color: #4CAF50;
+       width: 100%;
+        color: red;
+        padding: 15px;
+        margin: 10px 0px;
+        border: none;
+        cursor: pointer;
+         }
+       form {
+        border: 3px solid #f1f1f1;
+       }
+       input[type=text], input[type=password] {
+        width: 100%;
+        margin: 8px 0;
+        padding: 12px 20px;
+        display: inline-block;
+        border: 2px SOLID BLACK;
+        box-sizing: border-box;
+        }
+        button:hover {
+        opacity: 0.7;
+       }
+       .cancelbtn {
+        width: auto;
+        padding: 10px 18px;
+        margin: 10px 5px;
+       }
+
+
+       .container {
+        padding: 25px;
+        background-color: rgba(255,10,10,0.8);
+        }
+
+       body{
+        background-image: url('images/trainStation.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+<center> <h1 colour> Welcome to Railway Reservation Portal </h1> </center>
+<form>
+    <div class="container">
+	<h2>New user</h2>
+	<button type="submit" ><a href="SignUpPage.html">Sign Up</a></button>
+	<h2>Existing User</h2>
+        <button type="submit" ><a href="login.html">Login</a></button>
+	<center><h4>------------------Only for Admin------------------</h4></center>
+	<button type="submit" ><a href="admin_login.html">Admin Login</a></button>
+    </div>
+</form>
+</body>
+</html>
